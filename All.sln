@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample Application", "Sample Application\Sample Application.csproj", "{98288B40-C64E-4689-988E-83446BC4235B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardcodet.ToolTips", "Hardcodet.ToolTips\Hardcodet.ToolTips.csproj", "{CA4554BD-51A3-49DA-A41C-7DFD7DC6AC1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{5E919230-B583-4606-954A-9495A2183592}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Hardcodet.ToolTips.dll = lib\Hardcodet.ToolTips.dll
+		lib\Hardcodet.ToolTips.xml = lib\Hardcodet.ToolTips.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98288B40-C64E-4689-988E-83446BC4235B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98288B40-C64E-4689-988E-83446BC4235B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98288B40-C64E-4689-988E-83446BC4235B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98288B40-C64E-4689-988E-83446BC4235B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4554BD-51A3-49DA-A41C-7DFD7DC6AC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4554BD-51A3-49DA-A41C-7DFD7DC6AC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4554BD-51A3-49DA-A41C-7DFD7DC6AC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4554BD-51A3-49DA-A41C-7DFD7DC6AC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CA6C0C2-94A8-474C-900E-BBAA7A5CEE11}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hardcodet.ToolTips</name>
+    </assembly>
+    <members>
+        <member name="T:Hardcodet.ToolTips.HeaderedToolTip">
+            <summary>
+            Headered content control that is being styled as a ToolTip. Used
+            visual states for transitions.
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.HeaderedToolTip.CategoryProperty">
+            <summary>
+            Category Dependency Property
+            </summary>
+        </member>
+        <member name="M:Hardcodet.ToolTips.HeaderedToolTip.OnApplyTemplate">
+            <summary>
+            Triggers visual state once the control template was applied
+            (switching state too early doesn't trigger anything, since the state
+            management is in the control templates).
+            </summary>
+        </member>
+        <member name="T:Hardcodet.ToolTips.ToolTipBehavior">
+            <summary>
+            Provides a way to quickly configure a tooltip for arbitrary framework elements.
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.ToolTipBehavior.ContentProperty">
+            <summary>
+            Content Dependency Property
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.ToolTipBehavior.ContentStringFormatProperty">
+            <summary>
+             ContentStringFormat Dependency Property
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.ToolTipBehavior.TitleProperty">
+            <summary>
+            Header Dependency Property
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.ToolTipBehavior.TitleStringFormatProperty">
+            <summary>
+            HeaderStringFormat Dependency Property
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.ToolTipBehavior.CategoryProperty">
+            <summary>
+            Category Dependency Property
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.ToolTipBehavior.MaxWidthProperty">
+            <summary>
+            MaxWidth Dependency Property
+            </summary>
+        </member>
+        <member name="M:Hardcodet.ToolTips.ToolTipBehavior.OnIsInteractiveChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the IsInteractive property.
+            </summary>
+        </member>
+        <member name="F:Hardcodet.ToolTips.ToolTipBehavior.IsEnabledProperty">
+            <summary>
+            IsEnabled Dependency Property
+            </summary>
+        </member>
+        <member name="M:Hardcodet.ToolTips.ToolTipBehavior.InitControls">
+            <summary>
+            Inits the helper popup and tooltip controls.
+            </summary>
+        </member>
+        <member name="M:Hardcodet.ToolTips.ToolTipBehavior.CreateWrapperControl">
+            <summary>
+            Creates a <see cref="T:Hardcodet.ToolTips.HeaderedToolTip"/> control and wires it's properties
+            with the behavior through data binding.
+            </summary>
+        </member>
+        <member name="M:Hardcodet.ToolTips.ToolTipBehavior.OnParentWindowDeactivated(System.Object,System.EventArgs)">
+            <summary>
+            Closes the popup immediately, if the parent window was deactivated.
+            Prevents the popup from hovering over other applications (popups
+            are topmost).
+            </summary>
+        </member>
+        <member name="M:Hardcodet.ToolTips.ToolTipBehavior.HideAndClose">
+            <summary>
+            Transitions the popup into a closed state.
+            </summary>
+        </member>
+        <member name="M:Hardcodet.ToolTips.ToolTipBehavior.Schedule(System.Action)">
+            <summary>
+            Schedules an action to be executed on the next timer tick. Resets the timer
+            and replaces any other pending action.
+            </summary>
+            <remarks>
+            Customize this if you need custom delays to show / hide / fade tooltips by
+            simply changing the timer interval depending on the state change.
+            </remarks>
+        </member>
+        <member name="M:Hardcodet.ToolTips.ToolTipBehavior.OnTimerElapsed(System.Object,System.EventArgs)">
+            <summary>
+            Performs a pending action.
+            </summary>
+        </member>
+        <member name="P:Hardcodet.ToolTips.ToolTipBehavior.Category">
+            <summary>
+            Gets or sets the Category property. This dependency property 
+            indicates ....
+            </summary>
+        </member>
+        <member name="P:Hardcodet.ToolTips.ToolTipBehavior.MaxWidth">
+            <summary>
+            Gets or sets the MaxWidth property. This dependency property 
+            indicates the maximum width of a popup.
+            </summary>
+        </member>
+        <member name="T:Hardcodet.ToolTips.ToolTipCategory">
+            <summary>
+            Flags that control themed ToolTips.
+            </summary>
+        </member>
+    </members>
+</doc>
